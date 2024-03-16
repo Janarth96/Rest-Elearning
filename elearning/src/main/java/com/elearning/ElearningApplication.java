@@ -2,6 +2,7 @@ package com.elearning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class ElearningApplication {
@@ -10,11 +11,5 @@ public class ElearningApplication {
 		SpringApplication.run(ElearningApplication.class, args);
 	}
 
-	// @Bean
-	// public UserDetailsService userDetailsService() {
-	// 	InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-	// 	manager.createUser(User.withUsername("user").password("password").roles("USER").build());
-	// 	return manager;
-	// }
 
 }
